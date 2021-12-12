@@ -1,6 +1,6 @@
 #include "data.hpp"
 
-DATA : DATA(int new_x)
+DATA::DATA(int new_x)
 {
     x = new_x;
 }

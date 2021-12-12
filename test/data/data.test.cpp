@@ -7,9 +7,9 @@ TEST(HelloTest, BasicAssertions)
     EXPECT_STRNE("hello", "world");
     // Expect equality.
 
-    Data d{};
+    DATA d{};
     EXPECT_EQ(d.testFunction(), 5);
 
-    Data d2{10};
-    EXPECT_EQ(d.testFunction(), 10);
+    DATA d2{10};
+    EXPECT_EQ(d2.testFunction(), 10);
 }
